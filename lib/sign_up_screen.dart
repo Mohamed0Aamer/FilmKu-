@@ -55,6 +55,22 @@ class SignUpScreen extends StatelessWidget {
             color: Color(0xff5483b3),
             minWidth: 190,
             height: 50,
+            padding: EdgeInsets.all(8),
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          InkWell(
+            onTap: () {},
+            child: Text(
+              "Log in",
+              style: TextStyle(
+                  color: const Color.fromARGB(192, 255, 255, 255),
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold),
+            ),
           )
         ],
       ),
