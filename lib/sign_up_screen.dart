@@ -44,7 +44,10 @@ class SignUpScreen extends StatelessWidget {
             height: 220,
           ),
           MaterialButton(
-            onPressed: () {},
+            onPressed: () {
+              print(namecontroller.text);
+              print(passwordcontroller.text);
+            },
             child: Text(
               "Sign Up",
               style: TextStyle(
