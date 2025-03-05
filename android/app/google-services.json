@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127371492239",
+    "project_id": "save-data-920a5",
+    "storage_bucket": "save-data-920a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127371492239:android:e13c1fd8b74b20ab0f69fa",
+        "android_client_info": {
+          "package_name": "com.MohamedFarouk.film_ku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpi9ccO4jj0ddPlEWRKuGCfByb3iB-6Jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
