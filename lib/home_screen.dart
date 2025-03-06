@@ -1,4 +1,4 @@
-import 'package:film_ku/components/search_field_widget.dart';
+import 'package:film_ku/components/Search_field_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
