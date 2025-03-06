@@ -14,7 +14,6 @@ class TextFormFieldWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      // validator: validator,
       controller: controller,
       style: TextStyle(color: Colors.white, fontSize: 20),
       decoration: InputDecoration(
