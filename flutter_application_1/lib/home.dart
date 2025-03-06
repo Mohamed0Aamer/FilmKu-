@@ -1,7 +1,7 @@
 import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/app_colors.dart';
+
 
 class Home extends StatelessWidget {
   const Home({super.key});
