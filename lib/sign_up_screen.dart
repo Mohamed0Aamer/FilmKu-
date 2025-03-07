@@ -19,7 +19,7 @@ class SignUpScreen extends StatelessWidget {
           style: TextStyle(
               fontSize: 40,
               fontWeight: FontWeight.w900,
-              color: Color(0xff052659)),
+              color: Color.fromARGB(255, 11, 90, 207)),
           textAlign: TextAlign.center,
         ),
         centerTitle: true,
@@ -30,16 +30,16 @@ class SignUpScreen extends StatelessWidget {
             height: 150,
           ),
           TextFormFieldWidget(
-              controller: namecontroller,
-              hintText: "USER NAME",
-              icon: Icons.person),
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            hintText: "USER NAME",
+          ),
           SizedBox(
             height: 40,
           ),
           TextFormFieldWidget(
-              controller: passwordcontroller,
-              hintText: "PASSWORD",
-              icon: Icons.lock),
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            hintText: "PASSWORD",
+          ),
           SizedBox(
             height: 220,
           ),
@@ -55,7 +55,7 @@ class SignUpScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.white),
             ),
-            color: Color(0xff5483b3),
+            color: Color.fromARGB(139, 13, 136, 236),
             minWidth: 190,
             height: 50,
             padding: EdgeInsets.all(8),
